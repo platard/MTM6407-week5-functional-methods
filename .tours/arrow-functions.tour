@@ -1,0 +1,110 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Arrow Functions",
+  "steps": [
+    {
+      "file": "main.js",
+      "description": "# Functional methods\r\nMethods that take a function as an argument\r\n",
+      "selection": {
+        "start": {
+          "line": 21,
+          "character": 1
+        },
+        "end": {
+          "line": 21,
+          "character": 22
+        }
+      },
+      "line": 1
+    },
+    {
+      "file": "main.js",
+      "description": "## forEach()\r\nInvoke a function for each item in an array. Note that the forEach() method does not return a new array. \r\n[more...](https://imdac.github.io/modules/js/declarative-programming/functional-array-methods.html#foreach)\r\n\r\nPrint the length of each string using forEach()\r\n1. Define the an Array of strings  \r\n> `[\"apple\", \"banana\", \"orange\", \"kiwi\", \"grape\"]`\r\n2. Call the method forEach() using the dot notation\r\n> `myArray.forEach(arrowFunction)`\r\n3. Create an arrow function that rceives one parameter (one word/fruit of the array), and return a phrase(string)\r\n> 'The length of \"${word}\" is ${word.length}'\r\n",
+      "selection": {
+        "start": {
+          "line": 2,
+          "character": 4
+        },
+        "end": {
+          "line": 2,
+          "character": 13
+        }
+      }
+    },
+    {
+      "file": "main.js",
+      "description": "## Maps\r\nThe map( ) creates a new array with the results of calling a provided function on every item in the calling array\r\n\r\n1. Create an array of temperatures from Celsius to Fahrenheit using map(). Assign the new array to a variable.\r\n>Hints: \r\n> - formula `(celsius * 9/5) + 32`",
+      "selection": {
+        "start": {
+          "line": 39,
+          "character": 1
+        },
+        "end": {
+          "line": 39,
+          "character": 10
+        }
+      },
+      "line": 17
+    },
+    {
+      "file": "main.js",
+      "description": "## Filter\r\n\r\nCreates a new array with all items that pass the condition implemented by the provided function\r\n\r\n1. Filter an array of products to get only the affordable products (price <= 50)",
+      "selection": {
+        "start": {
+          "line": 47,
+          "character": 1
+        },
+        "end": {
+          "line": 47,
+          "character": 12
+        }
+      },
+      "line": 23
+    },
+    {
+      "file": "main.js",
+      "description": "## Find\r\n\r\nThe find() method returns the value of the first element that passes the test implemented by the provided function.\r\n\r\n1. Find the first name that starts with the letter \"B\"\r\n\r\n> Hints:\r\n> - Use `startsWith()` method",
+      "selection": {
+        "start": {
+          "line": 62,
+          "character": 1
+        },
+        "end": {
+          "line": 62,
+          "character": 10
+        }
+      },
+      "line": 38
+    },
+    {
+      "file": "main.js",
+      "description": "## Reduce\r\n\r\nThe reduce() method take each item of an array and reduces them down to a single value by calling the provided function on each item. \r\n\r\n1. Calculate the total price of items in a shopping cart",
+      "selection": {
+        "start": {
+          "line": 71,
+          "character": 1
+        },
+        "end": {
+          "line": 71,
+          "character": 12
+        }
+      },
+      "line": 47
+    },
+    {
+      "file": "main.js",
+      "description": "## Sort\r\nThe sort() method takes a function as an argument to handle the sorting. The sort method sorts elements in place, which means the method will alter the provided array.\r\n\r\n1. Use the sort() method to sort students by last name",
+      "selection": {
+        "start": {
+          "line": 91,
+          "character": 1
+        },
+        "end": {
+          "line": 91,
+          "character": 9
+        }
+      },
+      "line": 66
+    }
+  ]
+}
